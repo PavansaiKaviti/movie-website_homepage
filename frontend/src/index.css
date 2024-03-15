@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+  background-image: url("./images/venom.png");
+  /* background-color: rgba(51, 184, 151, 0); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+html {
+  min-height: 100%;
+}

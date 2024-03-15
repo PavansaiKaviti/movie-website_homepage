@@ -1,0 +1,146 @@
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+}
+.navbar a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 40%;
+  padding: 4px;
+  margin-right: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #faf8f8;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #fff;
+}
+.navbar a:hover::before {
+  width: 100%;
+}
+.logo-container {
+  padding: 20px;
+}
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 150px;
+  width: 200px;
+}
+.Venom {
+  /* font-size: large; */
+  height: 100vh;
+  background-image: url("./images/venom.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.home_content {
+  height: 270px;
+  width: 700px;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+  position: absolute;
+  top: 45%;
+  left: 22px; /*modified left: 5%; */
+  border-radius: 40px;
+  font-size: 30px;
+}
+.home_content p {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #fff;
+}
+div.scroll {
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 20%;
+  /* margin-bottom: 100%; */
+  margin-left: 60%;
+}
+
+.scroll img {
+  padding-top: 5px;
+  padding-left: 40px;
+}
+/* div.scroll {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+} */
+video {
+  height: 400px;
+  padding-left: 2%;
+  margin-top: 5%;
+}
+.hanging img {
+  height: 400px;
+  /* position: absolute; */
+}
+/* .hanging {
+  margin-left: 50%;
+  margin-top: 10%;
+  display: block; 
+  position: absolte;
+  left: 60%;
+  top: 87%;
+} */
+div.hanging {
+  /* margin-left: 900px; */
+  /* width: 10px; */
+  position: absolute;
+  top: 90%;
+  left: 900px;
+}
+.wrap {
+  height: 330px;
+  width: 700px;
+  background-color: transparent;
+  border-radius: 7%;
+  /* margin-top: 2%;  */
+  position: absolute;
+  /* top: ; */
+  /* margin-left: 5%; */
+  left: 15px;
+}
+.wrap p {
+  padding: 20px;
+  font-size: 25px;
+  color: rgb(255, 254, 254);
+  text-align: justify;
+  text-justify: inter-word;
+  top: 140%;
+}
+.catch img {
+  height: 220px;
+}
+div.catch {
+  position: absolute;
+  top: 1200px;
+  right: 50px;
+}
+.wrap p .nameedit {
+  color: rgb(251, 251, 50);
+}
+.wrap p .paraedit {
+  color: rgb(28, 155, 234);
+}
